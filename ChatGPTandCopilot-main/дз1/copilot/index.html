@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- напиши строку кода регистрационного поля html/css -->
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .registration-form {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+<!-- как создать блок с видео -->
+<!-- <style>
+    .video-container {
+        width: 60%;
+        margin: 50px auto;
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    video {
+        width: 100%;
+        border-radius: 8px;
+    } 
+</style> -->
+
+<!-- как создать карточку товара -->
+<!-- <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    .product-card {
+        width: 300px;
+        margin: 50px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .product-card img {
+        width: 100%;
+        height: auto;
+    }
+    .product-card .card-content {
+        padding: 20px;
+    }
+    .product-card h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .product-card p {
+        font-size: 1em;
+        color: #777;
+        margin-bottom: 20px;
+    }
+    .product-card .price {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .product-card button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    .product-card button:hover {
+        background-color: #218838;
+    }
+</style> -->
+
+<!-- создай мне блок с семантически тегами, чтобы было меню с навигациями, меню карточки товара и подвалом сайта -->
+<!-- <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    section {
+        padding: 20px;
+    }
+    .product-card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 20px 0;
+        width: 300px;
+    }
+    .product-card img {
+        max-width: 100%;
+    }
+    .product-card h2 {
+        margin-top: 0;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+</style> -->
+
+</head>
+<body>
+     <!-- напиши строку кода регистрационного поля html/css -->
+     <div class="registration-form">
+        <form action="/submit_registration" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+    <!-- как создать блок с видео -->
+    <!-- <div class="video-container">
+        <h2>Watch This Video</h2>
+        <video controls>
+            <source src="your-video-file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div> -->
+
+    <!-- как создать карточку товара -->
+    <!-- <div class="product-card">
+        <img src="product-image.jpg" alt="Product Image">
+        <div class="card-content">
+            <h3>Product Name</h3>
+            <p>Short product description goes here. Highlight the key features or benefits.</p>
+            <div class="price">$29.99</div>
+            <button>Add to Cart</button>
+        </div>
+    </div> -->
+
+    <!-- создай мне блок с семантически тегами, чтобы было меню с навигациями, меню карточки товара и подвалом сайта -->
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     Основной контент 
+    <main>
+        <section id="products">
+            <h1>Наши товары</h1>
+
+             Карточка товара 
+            <article class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Пример товара">
+                <h2>Название товара</h2>
+                <p>Описание товара. Цена: 1000₽</p>
+                <button>Купить</button>
+            </article>
+
+            <article class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Пример товара 2">
+                <h2>Название товара 2</h2>
+                <p>Описание товара 2. Цена: 1500₽</p>
+                <button>Купить</button>
+            </article>
+        </section>
+    </main>
+
+   Подвал
+    <footer>
+        <p>&copy; 2024 Мой интернет-магазин</p>
+    </footer> -->
+
+</body>
+</html>
